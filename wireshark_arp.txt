@@ -25,3 +25,6 @@
             The hexadecimal Value fot the destination: 00:d0:59:a9:3d:68
         15) There is no reply because the closest router already has the MAC address 
               being requested so rather than wasting recourses the router just answers
+    
+    D) The default time an entry remains in the ARP cache for MAC OSLion is 20 minutes 
+        by apple documentation
