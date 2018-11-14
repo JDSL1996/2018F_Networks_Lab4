@@ -1,0 +1,27 @@
+2)  A)  1) The 48-bit Ethernet address of my computer is: a8:86:dd:9a:e3:be
+        2) The 48-bit Ethernet address of the destination is: b0:b2:8f:7d:73:1a
+            No, this is the address of the network interface of the router that my 
+            LAN is connecting and sending messages to.
+        3) 0800 this corresponds to IPv4
+        4) 67 bytes in
+  
+    B)  The ARP query is sent as a broadcast because the sender is unaware of which 
+          adapter address matches the IP address. The response is send with a specific 
+          destination because it does already know the adapter address as it just 
+          received the message from there.
+    
+    C)  12) A) The opcode field begins 20 bytes from the beginning of the 
+                Ethernet frame
+            B) The value is 1 corresponding to a request
+            C) Yes, the ARP message contains the IP address of the sender
+            D) The target IP address is given at the very end of the ARP packet 
+                and the MAC address is stored just before it waiting to be filled in
+        13) A) The opcode field begins 20 bytes from the beginning of the 
+                Ethernet frame
+            B) the value is 2 corresponding to a reply
+            C) The target IP address is given at the very end of the ARP packet 
+                and the MAC address is stored just before it completely to be filled in
+        14) The hexadecimal Value fot the Source: 00:06:25:da:af:73
+            The hexadecimal Value fot the destination: 00:d0:59:a9:3d:68
+        15) There is no reply because the closest router already has the MAC address 
+              being requested so rather than wasting recourses the router just answers
