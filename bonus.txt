@@ -1,0 +1,5 @@
+Since ARP is a way to map IP addresses to MAC addresses, making this 
+mistake would tell your computer to forward all packets intended for the
+specified IP address to the defined MAC address despite it being incorrect.
+The packets sent from your computer to that IP would therefore never reach
+the intended IP address.
